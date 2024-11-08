@@ -1,4 +1,3 @@
-
 public class EssaiSegment {
     public static void main(String[] args) {
         Segment segment = new Segment(Integer.parseInt(args[0]), Integer.parseInt(args[1]));
@@ -9,5 +8,4 @@ public class EssaiSegment {
         System.out.println("Le point " + point + (segment.appartient(point) ? " appartient " : " n'appartient pas ") + "au segment.");
     }
 }
-
 
